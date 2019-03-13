@@ -40,6 +40,15 @@ equal(bodyBuf2, body1);
 
 // ¦mjsUsageDemo¦-
 
+equal(guillotine.chop('{}\r\n\r\n'), [{}, '\r\n']);
+equal(guillotine.chop('[]\r\n\r\n'), [[], '\r\n']);
+equal(guillotine.recombine({}, '\r\n'), '{}\n\r\n');
+equal(guillotine.recombine([], '\r\n'), '[]\n\r\n');
+equal(guillotine.chop('"\\r\\n"\n\n\r'), ['\r\n', '\n\r']);
+
+const someNumStr = '-235e-1';
+equal(guillotine.chop(lines(someNumStr, someNumStr)),
+  [+someNumStr, someNumStr]);
 
 
 

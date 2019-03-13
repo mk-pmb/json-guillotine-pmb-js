@@ -1,5 +1,5 @@
 { "name": "json-guillotine-pmb",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Split/combine a JSON meta data head with a string or buffer body.",
   "keywords": [],
 
