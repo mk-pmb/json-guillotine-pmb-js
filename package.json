@@ -1,0 +1,33 @@
+{ "name": "json-guillotine-pmb",
+  "version": "0.1.0",
+  "description": "Split/combine a JSON meta data head with a string or buffer body.",
+  "keywords": [],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/json-guillotine-pmb-js/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/json-guillotine-pmb-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/json-guillotine-pmb-js/issues"
+  },
+  "contributors": [],
+
+  "private": false, "license": "ISC",
+  "main": "guil.js",
+  "scripts": { "test": "nodejs test/all.js" },
+  "directories": { "test": "test" },
+
+  "dependencies": {
+    "is-string": "^1.0.4",
+    "safe-sortedjson": "^1.0.1",
+    "split-string-or-buffer-once-pmb": "^1.0.0",
+    "stripbom": "^3.0.0"
+  },
+  "devDependencies": {
+  },
+
+
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
+}
