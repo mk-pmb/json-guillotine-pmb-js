@@ -1,5 +1,5 @@
 { "name": "json-guillotine-pmb",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Split/combine a JSON meta data head with a string or buffer body.",
   "keywords": [],
 
@@ -26,9 +26,8 @@
     "stripbom": "^3.0.0"
   },
   "devDependencies": {
-    "equal-pmb": "^0.1.16",
-    "nodemjs": "^0.1.4",
-    "usnam-pmb": "^0.2.4"
+    "equal-pmb": "^0.1.17",
+    "nodemjs": "^0.1.5"
   },
 
 
