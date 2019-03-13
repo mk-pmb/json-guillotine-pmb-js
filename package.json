@@ -15,8 +15,8 @@
   "contributors": [],
 
   "private": false, "license": "ISC",
-  "main": "guil.js",
-  "scripts": { "test": "nodejs test/all.js" },
+  "main": "guil.mjs",
+  "scripts": { "test": "nodemjs test/all.mjs" },
   "directories": { "test": "test" },
 
   "dependencies": {
@@ -26,6 +26,9 @@
     "stripbom": "^3.0.0"
   },
   "devDependencies": {
+    "equal-pmb": "^0.1.16",
+    "nodemjs": "^0.1.4",
+    "usnam-pmb": "^0.2.4"
   },
 
 
