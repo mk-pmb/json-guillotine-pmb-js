@@ -10,8 +10,8 @@ const spacedContainer = /^(\[|\{)[\r\n]*[ \t]/;
 function guessNeckType(blob) {
   const start = stripBom(blob.slice(0, 16).toString('latin1'));
   const opener = (spacedContainer.exec(start) || false)[1];
-  if (opener === '{') { return '\n}'; }
-  if (opener === '[') { return '\n]'; }
+  if (opener === '{') { return '\n}\n'; }
+  if (opener === '[') { return '\n]\n'; }
   return '\n';
 }
 
